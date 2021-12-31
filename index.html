@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="shortcut icon" href="images/happy-New-Year-2022.gif" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+         <link rel="stylesheet" href="style.css">
+    </head>
+        <title>Happy New Year Zefanya</title>
+    </head>
+    <style>
+body {
+    text-align:center;
+    background:url("images/Bg-img.webp");
+    font-family:"Handlee", cursive;
+    color:#000;
+    background-size:cover;
+}
+.main_container{
+    background:rgba(255,255,255,0.8);
+    padding:20px;
+    border-radius:3px;
+    margin:8% auto;
+    width: 50%;
+}
+.opener, .opener2{
+    height: auto;
+    background:url("images/Bgcard-img.webp");
+    background-size:100% 100%;
+    border-radius:3px;
+    padding:10px;
+}
+.opener2{
+    display:none;
+    
+}
+#btn{
+    color:#fff;
+    text-shadow:1px 1px 1px #000;
+    text-decoration:none;
+}
+#btn:hover{
+    opacity:.4;
+    cursor:pointer;
+    text-decoration:underline;
+}
+.prof{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    margin-top:-20%;
+    border:2px solid #fff;
+}
+.message{
+    background:rgba(0,0,0,0.6);
+    color:#fff;
+    border-radius:3px;
+    text-align: justify;
+    padding: 25px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 980px){
+    .main_container{
+        margin:18% auto;
+        width: 90%;
+        padding: 10px;
+    }
+    .message{
+        font-size: 18px;
+    }
+
+}
+.copyright {
+  width: auto;
+  margin: 20px;
+}
+footer {
+  color: #ffffff;
+  font-family: "Handlee" cursive;
+  font-size: ;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px #000;
+}
+footer a {
+  color: #3bb0de;
+}
+canvas {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+    </style>
+    <body>
+        <div class="main_container">
+            <img id="prof" class="prof" src="images/happy-New-Year-2022.gif" alt="prof"/>
+            <h1 style="margin-top:5px;">HAPPY NEW YEAR</h1>
+            <div class="opener" id="opener">
+                <div style="background:rgba(0,0,0,0.4); padding:30px;">
+                    <h2><a id="btn" href="#" onclick="openmessage()">View the message here.</a></h2>
+                </div>
+            </div>
+                
+        
+            <div class="opener2" id="opener2">
+                <div class="message">
+                    <p>Dear Love Zefanya:</p>
+                    <p>Hi Zefanya&#x2764;&#xFE0F;,<br /><r style="text-indent: 50px;">Kamu adalah orang yang aku temui di tahun 2021, aku sangat senang bisa mengenalmu hingga detik ini, terimakasih sudah mau menjadi temanku&#x1F603;, Oh iya lewat surat ucapan ini, kutuliskan sebuah harapan, semoga setiap harimu di tahun 2022 ini bersinar&#x2600;&#xFE0F;. Tahun-tahun silih  berganti, tapi tahun ini spesial aku berdoa untukmu&#x1F60A;, semoga kamu sehat selalu dan aku selalu berharap, cahaya kebaikan selalu menerangi hidupmu, kesuksesan menyertaimu, kebahagiaan selalu memelukmu erat, dan senyum indah yang senantiasa terlukis di wajahmu, dan aku juga berharap agar kita dapat terus bersama di tahun 2022 ini. Semoga tahun baru membawa kegembiraan, kedamaian, dan kebahagiaan dalam kehidupanmu dan keluargamu. semoga tahun barumu menyenangkan.&#x1F973;&#x1F38A;<br /> Selamat tahun baru 2022 Zefanya.&#x1F387;&#x1F386;</r></p>
+                    <p style="text-align: center;font-weight: bolder;font-size: 30px;font-style: italic;">Happy New Year Zefanya!</>
+                    <p style="text-align: right;">Greeting from,<br/>Harley</p>
+                    <canvas id="canvas"></canvas>
+                </div>
+            </div>
+        </div>
+         <footer class="copyright">
+          <h2>&copy;2021 Made with<span>&#x2764;&#xFE0F;by </span><a href="https://api.whatsapp.com/send?phone=6285866031810&text=Terimakasih%20suratnya">Harley</a></h>
+        </footer>
+           <div class="winter-is-coming">
+  
+  <div class="snow snow--near"></div>
+  <div class="snow snow--near snow--alt"></div>
+  
+  <div class="snow snow--mid"></div>
+  <div class="snow snow--mid snow--alt"></div>
+  <div class="snow snow--far"></div>
+  <div class="snow snow--far snow--alt"></div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- // <script type="text/javascript" src="firework.js"></script> -->
+
+    <script type="text/javascript" src="firework_types.js"></script>
+    <script type="text/javascript" src="particle_sets.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+   // alert("Best result on phone view.")
+   alert ("Welcome! here's something special for you")
+function openmessage(){
+    document.getElementById("opener").style.display="none";
+    document.getElementById("opener2").style.display="block";
+
+document.getElementById("btn").style.display="none";
+document.getElementById("prof").src="images/happy-New-Year-2022.gif";
+}
+
+    </script>
+</html>
